@@ -18,7 +18,7 @@ def predict():
     if prediction == 0:
         prediction = 'No arrest'
     else:
-        predicton = "Yes, it will lead to arrest"
+        prediction = "Yes, it will lead to arrest"
 
     return render_template('index.html', prediction_text='Prediction: {}'.format(prediction))
 if  __name__== '__main__':
